@@ -1,3 +1,7 @@
+body{
+  background-color: #dadada;
+  background-image: url("assets/leafy-bg.jpg");
+}
 header.nav-bg {
   background-color: #4f4f4f;
 }
@@ -20,4 +24,14 @@ li.kt-nav-item {
 a.active {
   font-weight: normal;
   color: black;
+}
+
+article.kt-bio {
+  background-color: rgb(24, 24, 70);
+  color: #dadada;
+}
+
+img.port-img {
+  max-width: 100%;
+  max-height: 100%;
 }
