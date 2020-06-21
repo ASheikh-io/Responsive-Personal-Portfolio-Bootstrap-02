@@ -2,36 +2,13 @@ body{
   background-color: #dadada;
   background-image: url("assets/leafy-bg.jpg");
 }
-header.nav-bg {
-  background-color: #4f4f4f;
-}
-a.logo {
-  font-size: 30px;
-  font-weight: bold;
-  color:#ffffff;
-  text-decoration: none;
-}
-div.logo-container {
-  padding: 7px 0px 10px 55px;
-}
-
-li.kt-nav-item {
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-}
 
 a.active {
   font-weight: normal;
   color: black;
 }
 
-article.kt-bio {
-  background-color: rgb(24, 24, 70);
-  color: #dadada;
-}
-
 img.port-img {
   max-width: 100%;
   max-height: 100%;
-}
+} 
