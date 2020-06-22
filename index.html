@@ -4,14 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Keith Tharp - Full Stack Developer</title>
 </head>
 
-<body bg-light>
+<body class="bg-light d-flex flex-column min-vh-100">
 
   <!-- Logo and navigation container -->
   <div class="container-fluid border-bottom border-dark">
@@ -29,10 +28,10 @@
           <li class="nav-item">
             <a class="nav-link active" href="index.html">About</a>
           </li>
-          <li class="nav-item border-left dorder-secondary">
+          <li class="nav-item dorder-secondary">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item border-left dorder-secondary">
+          <li class="nav-item dorder-secondary">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
@@ -64,11 +63,29 @@
 
       <!-- Image container -->
       <div class="col-md-5">
-        <img class="mw-100 mh-100 border-dark borderrounded" src="assets/keith-tharp.jpg" />
+        <img class="mw-100 mh-100 border border-dark rounded" src="assets/keith-tharp.jpg" />
       </div>
 
     </main>
   </div>
+
+  <!-- Begin sticky footer -->
+
+  <footer class="footer mt-auto py-3 bg-light border-top border-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          &copy; Keith Tharp <script>document.write( new Date().getFullYear() );</script>
+        </div>
+        <div class="col-md-4">
+          KeithTharp.com
+        </div>
+        <div class="col-md-4">
+          KeithSTharp@Gmail.com
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
