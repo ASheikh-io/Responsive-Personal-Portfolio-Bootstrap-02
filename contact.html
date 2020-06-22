@@ -14,7 +14,7 @@
 <body>
 
   <!-- Logo and navigation container -->
-  <div class="container-fluid">
+  <div class="container-fluid border-bottom border-dark">
     <header class="row">
       <!-- Logo -->
       <div class="col-md-5 bg-dark">
@@ -25,14 +25,14 @@
       <!-- Begin Navigation -->
       <div class="col-md-7 bg-light">
         <nav class="col-md pt-1">
-          <ul class="nav justify-content-center">
+          <ul class="nav justify-content-center justify-content-md-end">
             <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item border-left dorder-secondary">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item border-left dorder-secondary">
               <a class="nav-link active" href="contact.html">Contact</a>
             </li>
           </ul>
@@ -42,28 +42,30 @@
     </header>
   </div>
   <!-- End Header Area -->
-
+  <!-- Begin main page content -->
   <main>
-
-      <form class="bg-secondary p-md-5 p-3 m-md-5 justify-content-center">
-        <div class="row">
-          <div class="col m-md-5">
-            <div class="form-group">
-              <label>Name</label>
-              <input type="text" class="form-control">
-            </div>
-            <div class="form-group">
-              <label>Email address</label>
-              <input type="email" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+    <!-- Begin contact form -->
+    <form class="p-md-5 m-md-5 justify-content-center">
+      <div class="row">
+        <div class="col-md-8 bg-secondary p-4 py-5">
+          <h2>Contact</h2>
+          <hr class="border border-dark">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control">
           </div>
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
-      </form>
+      </div>
+    </form>
 
   </main>
 
