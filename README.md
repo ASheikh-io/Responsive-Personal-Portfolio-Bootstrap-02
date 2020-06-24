@@ -19,7 +19,7 @@ Initially I started out thinking I would use Bootstrap for the basics then creat
 
 **Portfolio**
 * These are projects from my wedding photography business. I decided to use Bootstrap cards here for their clean presentation and flexible layout abilities in the grid.
-![screen cap of porfolio appearance.](https://github.com/keiththarp/02-Bootstrap-Responsive-Portfolio/blob/master/assets/portfolio-cap.png)
+![screen cap of porfolio appearance.](/master/assets/portfolio-cap.png)
 
 **Contact**
 * I went with a basic contact form here to match the homework documentation.
