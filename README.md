@@ -1,7 +1,7 @@
 # 02 Bootstrap Responsive Portfolio
 Creating a responsive, personal portfolio site using the Bootstrap CSS framework
 
-View site here - https://keiththarp.github.io/02-Bootstrap-Responsive-Portfolio/
+View site here - https://keiththarp.github.io/Responsive-Personal-Portfolio-Bootstrap-02/
 ![Screen cap of project](https://github.com/keiththarp/02-Bootstrap-Responsive-Portfolio/blob/master/assets/Screen%20Shot%202020-06-23%20at%206.29.43%20PM.png)
 
 ## Early Steps
